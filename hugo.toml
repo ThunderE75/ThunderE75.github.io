@@ -14,9 +14,9 @@ enableEmoji = true
   countPageItems = 7
 
 [params.rtwt.home]
-  showBio = true
-  showAuthorImg = true
-  showHomeBanner = true
+  showBio = false
+  showAuthorImg = false
+  showHomeBanner = false
   sidePaneTags = true
   showFeatured = true
   showRecent = true
