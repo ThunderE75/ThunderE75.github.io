@@ -1,0 +1,14 @@
+name = 'lightning'
+license = 'MIT'
+licenselink = 'https://github.com/ThunderE75/rusty-typewriter/'
+description = 'A rusty hugo theme'
+
+homepage = 'https://github.com/math-queiroz/rusty-typewriter'
+demosite = 'https://rusty-typewriter.netlify.app/demo'
+
+tags = ["responsive", "minimal", "blog"]
+features = ["blog", "themes", "search"]
+
+[author]
+  name = 'ThunderE75'
+  homepage = 'https://github.com/ThunderE75'
