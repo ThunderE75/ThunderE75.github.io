@@ -1,6 +1,9 @@
 +++
 title = 'About Me'
+type = 'blank'
 +++
+
+# About me
 
 Welcome to my personal corner of the web!
 

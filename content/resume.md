@@ -1,6 +1,9 @@
 +++
-title = 'Navneet Prakash Dubey, MCA'
+title = 'resume'
+type = 'blank'
 +++
+# Navneet Prakash Dubey, MCA
+
 [\+91 70074 51137](tel:+917007451137) • [navneet.dubey750@gmail.com](mailto:navneet.dubey750@gmail.com) • [Varanasi, India](https://maps.app.goo.gl/gGL9Yv4GiJxysCSw7)
 
 ---

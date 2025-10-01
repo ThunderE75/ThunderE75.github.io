@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ThunderE75.github.io'
 languageCode = 'en-us'
-title = "Thunder's Website"
+title = "Thunder"
 siteBanner= 'images/banner.jpg'
 theme = 'lightning'
 enableEmoji = true
