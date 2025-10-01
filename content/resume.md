@@ -42,15 +42,15 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 
 ## Certificates
 
-| Cerficate | Issued By | Link | Date |
-| -------------------- | ------------------------------------------ |---------- |---------- |
+| Certificate | Issued By | Link | Date |
+| -------------------- | :------------------------------------------: | :----------: |---------- |
 | **CCNAV7: Introduction to Networking** | Cisco | [PDF](https://drive.google.com/file/d/15g8Eq-27W388c-7wIzlsVg3uuyG3_mIZ/view?usp=share_link) | *March 2022* |
 | **Database Foundation** | Oracle Academy | [PDF](https://drive.google.com/file/d/1iIHKU12RxVcSbMeJFLbD6KR75X5G8NH0/view?usp=share_link) | *April 2022* |
 | **IoT Fundamentals** | Cisco | [PDF](https://drive.google.com/file/d/1Kd_YyqhZi4F59p-KO5UxS69Phx0yEaRH/view?usp=sharing) | *February 2023*   |
 | **Linux Essentials Certification (NDG)** | Cisco (NDG) | [PDF](https://drive.google.com/file/d/1yNYXPtxlhj3rOC-3vS-f4M7a61fsV0_G/view?pli=1) | *July 2023*  |
-| **Seasons Of Artificial Intelligence** | Microsoft Learn | [PDF](https://drive.google.com/file/d/1WyQHx0-U0jYy6MGH2rcMIC-QulOijRNY/view?usp=sharing) | *October 2024* |
-> *Also received the **AI Rocket Award** from Microsoft Learn for exceptional performance during the six-week **Seasons Of Artificial Intelligence** event*  
+| **Seasons Of Artificial Intelligence** \* | Microsoft Learn | [PDF](https://drive.google.com/file/d/1WyQHx0-U0jYy6MGH2rcMIC-QulOijRNY/view?usp=sharing) | *October 2024* |
 
+> \* *Received the **AI Rocket Award** from Microsoft Learn for exceptional performance during the six-week **Seasons Of Artificial Intelligence** event*  
 ## Education
 
 * **Master of Computer Application** | Amity University, Noida | *2023 – Ongoing*
@@ -68,7 +68,5 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 
 * Helped to organize **WOW2023’** by **Google Developer Student Club** (GDSC), Amity Lucknow, in **Babu Banarsi Das Institute of Technology** (BBDIT) on April 11, 2023\.  
 * Volunteered in **11th International Conference on Reliability, Infocom Technology And Optimization** (ICRITO), Organized by **IEEE**, hosted on March 15, 2024 in Amity University Noida, Uttar Pradesh.
-
-
 
 > View this Resume on [Google Docs](https://docs.google.com/document/d/1OcYeL7mQ3JaBc9r9kcoimTOJNUtiS2rEOb3KAE4tUrI/edit?usp=sharing)
