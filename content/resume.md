@@ -1,6 +1,7 @@
 +++
 title = 'resume'
 type = 'blank'
+indexable = false
 +++
 # Navneet Prakash Dubey, MCA
 

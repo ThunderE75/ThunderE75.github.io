@@ -1,6 +1,7 @@
 +++
 title = 'About Me'
 type = 'blank'
+indexable = false
 +++
 
 # About me
