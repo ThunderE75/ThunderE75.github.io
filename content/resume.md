@@ -6,7 +6,7 @@ indexable = false
 # Navneet Prakash Dubey, MCA
 {{<linkicon "tel:+917007451137" "fa-solid fa-phone" "+91 70074 51137">}} • 
 {{<linkicon "mailto:navneetprakashdubey@gmail.com" "fa-solid fa-envelope" "navneetprakashdubey@gmail.com">}} • 
-{{<linkicon "https://maps.app.goo.gl/gGL9Yv4GiJxysCSw7" "fa-solid fa-location-dot" "Varanasi, India">}}
+{{<linkicon "https://maps.app.goo.gl/Z3Xer8oCSMxrBqrp8" "fa-solid fa-location-dot" "Noida, India">}}
 
 ---
 
@@ -25,9 +25,7 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 ---
 
 ## Projects
-
 ### NYX *(Discord Bot)*
-
 - Served as a project manager for a versatile open-sourced Discord bot, tailored to provide comprehensive Call of Duty Mobile weapon statistics.  
 - Contributed to the expansion of the bot from zero servers to over 1200 Discord servers.  
 - Actively engaged with a user base of over 178,000 unique users.  
@@ -42,9 +40,6 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 ---
 
 ## Certificates
-
-
-
 | Certificate | Issued By | Link | Date |
 | -------------------- | :------------------------------------------: | :----------: |---------- |
 | **CCNAV7: Introduction to Networking** | Cisco | {{<linkicon "https://drive.google.com/file/d/15g8Eq-27W388c-7wIzlsVg3uuyG3_mIZ/view?usp=share_link" "fa-solid fa-file-pdf" "PDF">}} | *March 2022* |
@@ -54,6 +49,9 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 | **Seasons Of Artificial Intelligence** \* | Microsoft Learn | {{<linkicon "https://drive.google.com/file/d/1WyQHx0-U0jYy6MGH2rcMIC-QulOijRNY/view?usp=sharing" "fa-solid fa-file-pdf" "PDF">}} | *October 2024* |
 
 > \* *Received the **AI Rocket Award** from Microsoft Learn for exceptional performance during the six-week **Seasons Of Artificial Intelligence** event*  
+
+---
+
 ## Education
 
 * **Master of Computer Application** | Amity University, Noida | *2023 – Ongoing*
@@ -73,4 +71,3 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 * Volunteered in **11th International Conference on Reliability, Infocom Technology And Optimization** (ICRITO), Organized by **IEEE**, hosted on March 15, 2024 in Amity University Noida, Uttar Pradesh.
 
 > View this Resume on  {{<linkicon "https://docs.google.com/document/d/1OcYeL7mQ3JaBc9r9kcoimTOJNUtiS2rEOb3KAE4tUrI/edit?usp=sharing" "fa-regular fa-file" "Google Docs">}}
-<i class="fa-regular fa-file"></i>

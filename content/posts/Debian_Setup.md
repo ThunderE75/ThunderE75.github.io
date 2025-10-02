@@ -62,4 +62,3 @@ source ~/.bashrc
 - After a while, i usually switch to {{<linkicon "https://zsh.sourceforge.io/" "fa-solid fa-globe" "zsh">}} as my shell but i have not made my guide for it
 - I use {{<linkicon "https://github.com/ohmyzsh/ohmyzsh" "fa-brands fa-github" "ohmyzsh">}} / {{<linkicon "https://github.com/ohmybash/oh-my-bash" "fa-brands fa-github" "oh-my-bash">}} to customize my prompt
 - For ubuntu, i remove snap support & use {{<linkicon "https://flatpak.org/setup/Ubuntu" "fa-solid fa-box" "Flatpak">}}
-<i class=""></i>
