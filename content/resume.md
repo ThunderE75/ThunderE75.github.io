@@ -4,8 +4,9 @@ type = 'blank'
 indexable = false
 +++
 # Navneet Prakash Dubey, MCA
-
-[\+91 70074 51137](tel:+917007451137) • [navneet.dubey750@gmail.com](mailto:navneet.dubey750@gmail.com) • [Varanasi, India](https://maps.app.goo.gl/gGL9Yv4GiJxysCSw7)
+{{<linkicon "tel:+917007451137" "fa-solid fa-phone" "+91 70074 51137">}} • 
+{{<linkicon "mailto:navneetprakashdubey@gmail.com" "fa-solid fa-envelope" "navneetprakashdubey@gmail.com">}} • 
+{{<linkicon "https://maps.app.goo.gl/gGL9Yv4GiJxysCSw7" "fa-solid fa-location-dot" "Varanasi, India">}}
 
 ---
 
@@ -27,28 +28,30 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 
 ### NYX *(Discord Bot)*
 
-* Served as a project manager for a versatile open-sourced Discord bot, tailored to provide comprehensive Call of Duty Mobile weapon statistics.  
-* Contributed to the expansion of the bot from zero servers to over 1200 Discord servers.  
-* Actively engaged with a user base of over 178,000 unique users.  
-* [Source Code](https://github.com/ThunderE75/nyx-master) & [Documentation](https://thunder75.gitbook.io/nyx/)
+- Served as a project manager for a versatile open-sourced Discord bot, tailored to provide comprehensive Call of Duty Mobile weapon statistics.  
+- Contributed to the expansion of the bot from zero servers to over 1200 Discord servers.  
+- Actively engaged with a user base of over 178,000 unique users.  
+- {{<linkicon "https://github.com/ThunderE75/nyx-master" "fa-brands fa-github" "Source Code">}} & {{<linkicon "https://thunder75.gitbook.io/nyx/" "fa-solid fa-book" "Documentation">}}
 
 ### Seasons of Artificial Intelligence *(AI/ML Models)*
 
-* A Repository of all the Artificial Intelligence / Machine Learning models that I trained & the notes that I took during the Seasons of Artificial Intelligence event.  
-* Projects are based on implementation of AI/ML Concepts like Variational AutoEncoders (VAE), Convolutional Neural Networks (CNN), Generative Adversarial Networks (GAN), Natural Language Processing (NLP), Image Classifiers, etc.  
-* [Source Code](https://github.com/ThunderE75/Seasons-of-AI) 
+- A Repository of all the Artificial Intelligence / Machine Learning models that I trained & the notes that I took during the Seasons of Artificial Intelligence event.  
+- Projects are based on implementation of AI/ML Concepts like Variational AutoEncoders (VAE), Convolutional Neural Networks (CNN), Generative Adversarial Networks (GAN), Natural Language Processing (NLP), Image Classifiers, etc.  
+- {{<linkicon "https://github.com/ThunderE75/Seasons-of-AI" "fa-brands fa-github" "Source Code">}}
 
 ---
 
 ## Certificates
 
+
+
 | Certificate | Issued By | Link | Date |
 | -------------------- | :------------------------------------------: | :----------: |---------- |
-| **CCNAV7: Introduction to Networking** | Cisco | [PDF](https://drive.google.com/file/d/15g8Eq-27W388c-7wIzlsVg3uuyG3_mIZ/view?usp=share_link) | *March 2022* |
-| **Database Foundation** | Oracle Academy | [PDF](https://drive.google.com/file/d/1iIHKU12RxVcSbMeJFLbD6KR75X5G8NH0/view?usp=share_link) | *April 2022* |
-| **IoT Fundamentals** | Cisco | [PDF](https://drive.google.com/file/d/1Kd_YyqhZi4F59p-KO5UxS69Phx0yEaRH/view?usp=sharing) | *February 2023*   |
-| **Linux Essentials Certification (NDG)** | Cisco (NDG) | [PDF](https://drive.google.com/file/d/1yNYXPtxlhj3rOC-3vS-f4M7a61fsV0_G/view?pli=1) | *July 2023*  |
-| **Seasons Of Artificial Intelligence** \* | Microsoft Learn | [PDF](https://drive.google.com/file/d/1WyQHx0-U0jYy6MGH2rcMIC-QulOijRNY/view?usp=sharing) | *October 2024* |
+| **CCNAV7: Introduction to Networking** | Cisco | {{<linkicon "https://drive.google.com/file/d/15g8Eq-27W388c-7wIzlsVg3uuyG3_mIZ/view?usp=share_link" "fa-solid fa-file-pdf" "PDF">}} | *March 2022* |
+| **Database Foundation** | Oracle Academy | {{<linkicon "https://drive.google.com/file/d/1iIHKU12RxVcSbMeJFLbD6KR75X5G8NH0/view?usp=share_link" "fa-solid fa-file-pdf" "PDF">}} | *April 2022* |
+| **IoT Fundamentals** | Cisco | {{<linkicon "https://drive.google.com/file/d/1Kd_YyqhZi4F59p-KO5UxS69Phx0yEaRH/view?usp=sharing" "fa-solid fa-file-pdf" "PDF">}} | *February 2023*   |
+| **Linux Essentials Certification (NDG)** | Cisco (NDG) | {{<linkicon "https://drive.google.com/file/d/1yNYXPtxlhj3rOC-3vS-f4M7a61fsV0_G/view?pli=1" "fa-solid fa-file-pdf" "PDF">}} | *July 2023*  |
+| **Seasons Of Artificial Intelligence** \* | Microsoft Learn | {{<linkicon "https://drive.google.com/file/d/1WyQHx0-U0jYy6MGH2rcMIC-QulOijRNY/view?usp=sharing" "fa-solid fa-file-pdf" "PDF">}} | *October 2024* |
 
 > \* *Received the **AI Rocket Award** from Microsoft Learn for exceptional performance during the six-week **Seasons Of Artificial Intelligence** event*  
 ## Education
@@ -69,4 +72,5 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 * Helped to organize **WOW2023’** by **Google Developer Student Club** (GDSC), Amity Lucknow, in **Babu Banarsi Das Institute of Technology** (BBDIT) on April 11, 2023\.  
 * Volunteered in **11th International Conference on Reliability, Infocom Technology And Optimization** (ICRITO), Organized by **IEEE**, hosted on March 15, 2024 in Amity University Noida, Uttar Pradesh.
 
-> View this Resume on [Google Docs](https://docs.google.com/document/d/1OcYeL7mQ3JaBc9r9kcoimTOJNUtiS2rEOb3KAE4tUrI/edit?usp=sharing)
+> View this Resume on  {{<linkicon "https://docs.google.com/document/d/1OcYeL7mQ3JaBc9r9kcoimTOJNUtiS2rEOb3KAE4tUrI/edit?usp=sharing" "fa-regular fa-file" "Google Docs">}}
+<i class="fa-regular fa-file"></i>

@@ -51,4 +51,4 @@ This guide shows you how to remove snap packages from an Ubuntu System
     sudo nala update
     ```
 
-> Refrence: [Source](https://www.debugpoint.com/remove-snap-ubuntu/)
+> Refrence: {{<linkicon "https://www.debugpoint.com/remove-snap-ubuntu/" "fa-solid fa-globe" "Source">}}
