@@ -1,0 +1,31 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("pre > code").forEach((codeBlock) => {
+    const pre = codeBlock.parentNode;
+
+    // Prevent duplicate buttons if Hugo shortcode already added one
+    if (pre.querySelector(".copy-btn")) return;
+
+    // Create button
+    const button = document.createElement("button");
+    button.className = "copy-btn";
+    button.innerHTML = '<i class="fa-regular fa-copy"></i>';
+
+    // Add click-to-copy behavior
+    button.addEventListener("click", () => {
+      navigator.clipboard.writeText(codeBlock.textContent).then(() => {
+        button.innerHTML = '<i class="fa-solid fa-copy"></i>';
+        setTimeout(() => {
+          button.innerHTML = '<i class="fa-regular fa-copy"></i>';
+        }, 2000);
+      });
+    });
+
+    // Style container
+    pre.style.position = "relative";
+
+    // Insert button
+    pre.appendChild(button);
+  });
+});
+</script>
