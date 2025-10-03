@@ -32,9 +32,10 @@ With that done, you should go ahead and install the X11 Gestures extension.
 
 ## Install and enable X11 Gestures GNOME extension
 
-Go to the extension page and enable it: {{<linkicon "https://extensions.gnome.org/extension/4033/x11-gestures/?ref=itsfoss.com" "fa-solid fa-globe" "X11 Gestures Extension">}}
+Go to the extension page and enable it {{<linkicon "https://extensions.gnome.org/extension/4033/x11-gestures/?ref=itsfoss.com" "fa-solid fa-globe" "X11 Gestures Extension">}}
 
-![X11 Gestures gnome extension](https://itsfoss.com/content/images/wordpress/2021/07/x11-gestures-gnome-extension-800x248.png)
+{{< img src="https://itsfoss.com/content/images/wordpress/2021/07/x11-gestures-gnome-extension-800x248.png" caption="X11 Gestures gnome extension" credit="Abhishek Prakash - It's Foss" creditURL="https://itsfoss.com/three-finger-swipe-gnome/" >}}
+
 
 Once you have enabled it, you can test the three finger swipe immediately. No need to log out or restart.
 

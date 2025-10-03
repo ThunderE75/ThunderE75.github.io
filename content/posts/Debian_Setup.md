@@ -26,13 +26,11 @@ This is how i like to setup a fresh install of Debian (Ubuntu) based distributio
 sudo apt update
 sudo apt upgrade
 sudo apt install nala
-sudo nala fetch
 ```
 
 - Add my `alias.sh` file to `.bashrc`, this adds some Quality of Life Aliases
 
-```sh
-cat << 'EOF' > ~/.alias
+{{< highlight bat "style=xcode-dark">}}
 # ===== QoL Aliases =====
 alias cls="clear"
 alias vim="nvim"
@@ -55,7 +53,7 @@ EOF
 
 grep -qxF 'source ~/.alias' ~/.bashrc || echo 'source ~/.alias' >> ~/.bashrc
 source ~/.bashrc
-```
+{{< /highlight >}}
 
 # Future Scope
 
