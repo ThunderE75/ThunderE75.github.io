@@ -6,6 +6,10 @@ tags = ['windows', 'FOSS', 'guide']
  This guide demonstrates how i setup my MPV will all the Configs, Scripts & Keybindings. 
  > This was setup on Windows 11, so some changes might be necessary (Like File paths & CLI commands) to make it work on Linux/MacOS. 
 
+## Showcase
+
+{{< img src="../../images/posts/mpv_showcase.png" alt="MPV UI Showcase" caption="MPV customization showcase" >}}
+
 ## Script Breakdown
 
 - {{< linkicon "https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua" "fa-brands fa-github" "autoload" >}} - This script automatically loads playlist entries before and after the currently played file. 
@@ -37,13 +41,16 @@ tags = ['windows', 'FOSS', 'guide']
 > Prerequisites {{<linkicon "https://mpv.io/installation/" "fa-solid fa-play" "mpv">}}, {{<linkicon "https://git-scm.com/" "fa-brands fa-git-alt" "git">}} & {{<linkicon "https://www.python.org/downloads/" "fa-brands fa-python" "python3 (pip)">}}
 
 1. Clone the repository into `%APPDATA%` folder
-    ```sh 
+
+    {{< highlight bat "style=xcode-dark">}}
     git clone https://github.com/ThunderE75/mpv-scripts %APPDATA%\mpv
-    ```
+    {{< /highlight >}}
+    
 1. Download {{<linkicon "https://pypi.org/project/subliminal/" "fa-brands fa-python" "pip/Subliminal">}} for {{< linkicon "https://github.com/davidde/mpv-autosub" "fa-brands fa-github" "autosub" >}}
-   ```sh
-   pip install subliminal
-   ```
+
+    {{< highlight sh "style=xcode-dark">}}
+    pip install subliminal
+    {{< /highlight >}}
 ## Key Bindings
 
 ### Miscellaneous Script Keybindings

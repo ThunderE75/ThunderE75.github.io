@@ -1,0 +1,32 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $credit := .Get "credit" | default "" -}}
+{{- $creditURL := .Get "creditURL" | default "" -}}
+{{- $width := .Get "width" | default "auto" -}}
+{{- $height := .Get "height" | default "auto" -}}
+
+<figure class="image-shortcode" style="text-align:center; margin:0;">
+  <img src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}" style="margin:0; display:inline-block;">
+  
+  {{- if or $caption $credit }}
+  <figcaption style="font-size:0.9em; color:gray; margin-top:0.15em;">
+    {{- if $caption -}}
+      {{ $caption }}
+    {{- end -}}
+    {{- if $credit }}
+      <span style="font-size:0.85em; color:#666;">
+        (Image credit: 
+        {{- if $creditURL -}}
+          <a href="{{ $creditURL }}" target="_blank" rel="noopener noreferrer" style="color:inherit; text-decoration:underline;">
+            {{ $credit }}
+          </a>
+        {{- else -}}
+          {{ $credit }}
+        {{- end -}}
+        )
+      </span>
+    {{- end }}
+  </figcaption>
+  {{- end }}
+</figure>
