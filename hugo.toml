@@ -56,3 +56,10 @@ enableEmoji = true
     name = "Socials"
     url = "/socials"
     weight = 40
+
+
+[related]
+ includeNewer = true
+ [[related.indices]]
+  name = 'tags'
+  weight = 100

@@ -1,6 +1,7 @@
 +++
 date = '2025-09-30T21:30:11+05:30'
 title = 'My Debian Setup'
+featured = true
 tags= ['linux', 'guide']
 +++
 
