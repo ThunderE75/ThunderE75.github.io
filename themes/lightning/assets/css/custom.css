@@ -1,0 +1,92 @@
+/* Remove default summary marker */
+summary::-webkit-details-marker { display: none; }
+summary::marker { content: ""; }
+
+/* Base callout */
+.callout {
+  border-left: 4px solid;
+  /* border-radius: 6px; */
+  padding: 0.6em 0.9em;
+  margin: 1em 0 0 .3em;
+  background: rgba(0,0,0,0.03);
+  color: inherit;
+  font-family: inherit;
+  overflow: hidden;
+}
+
+/* Header (summary or static header) */
+.callout-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  cursor: default;
+}
+
+/* When it's a summary, show pointer */
+details.callout .callout-header {
+  cursor: pointer;
+}
+
+/* Hide default outline when clicking summary (optional) */
+details.callout summary:focus {
+  outline: none;
+}
+
+/* Title text */
+.callout-title {
+  margin-right: 0.5rem;
+}
+
+/* Toggle chevron placed at end */
+.toggle-icon {
+  margin-left: auto;
+  transition: transform 0.18s ease;
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+/* Rotate chevron when collapsed/open state */
+details.callout[open] .toggle-icon {
+  transform: rotate(0deg);
+}
+details.callout:not([open]) .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+/* Content with transition */
+.callout-content {
+  margin-top: 0.45rem;
+  line-height: 1.45;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+}
+
+details[open] .callout-content {
+  max-height: 1000px; /* enough for tall content */
+  opacity: 1;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+/* Variant colors (tweak to fit your theme) */
+.callout-note      { border-color: #3b82f6; background: rgba(59,130,246,0.05); }   /* Blue */
+.callout-abstract  { border-color: #6366f1; background: rgba(99,102,241,0.05); }   /* Indigo */
+.callout-info      { border-color: #0ea5e9; background: rgba(14,165,233,0.05); }   /* Cyan */
+.callout-tip       { border-color: #a855f7; background: rgba(168,85,247,0.05); }   /* Purple */
+.callout-success   { border-color: #22c55e; background: rgba(34,197,94,0.05); }    /* Green */
+.callout-question  { border-color: #14b8a6; background: rgba(20,184,166,0.05); }   /* Teal */
+.callout-warning   { border-color: #f59e0b; background: rgba(245,158,11,0.05); }   /* Amber */
+.callout-failure   { border-color: #ef4444; background: rgba(239,68,68,0.05); }    /* Red */
+.callout-danger    { border-color: #b91c1c; background: rgba(185,28,28,0.06); }    /* Dark Red */
+.callout-bug       { border-color: #d946ef; background: rgba(217,70,239,0.06); }   /* Pink/Purple */
+.callout-example   { border-color: #2563eb; background: rgba(37,99,235,0.05); }    /* Blue */
+.callout-quote     { border-color: #6b7280; background: rgba(107,114,128,0.05); }  /* Gray */
+.callout-opinion   { border-color: #e879f9; background: rgba(232,121,249,0.06); }  /* Light Pink */
+
+/* Icon spacing */
+.callout-header i[aria-hidden="true"] { display:inline-block; width:1.1em; text-align:center; }
+
+/* Small refinement for summary focus-visible */
+details.callout summary:focus-visible { outline: 2px solid rgba(0,0,0,0.08); border-radius:4px; }

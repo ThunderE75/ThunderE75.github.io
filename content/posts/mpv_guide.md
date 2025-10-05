@@ -2,10 +2,13 @@
 title = 'MPV Media Player Guide'
 date = '2025-10-02T19:43:38+05:30'
 featured = true
-tags = ['windows', 'FOSS', 'guide']
+tags = ['windows', 'guide', 'FOSS']
 +++
  This guide demonstrates how i setup my MPV will all the Configs, Scripts & Keybindings. 
- > This was setup on Windows 11, so some changes might be necessary (Like File paths & CLI commands) to make it work on Linux/MacOS. 
+
+{{< callout type="warning" foldable=true collapsed=true >}}
+This was setup on `Windows 11`, so some changes might be necessary (Like File paths & CLI commands) to make it work on Linux/MacOS. 
+{{< /callout >}}
 
 ## Showcase
 

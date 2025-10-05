@@ -1,0 +1,81 @@
+{{- /* layouts/shortcodes/callout.html */ -}}
+
+{{- $type := .Get "type" | default "info" -}}
+{{- $customTitle := .Get "title" | default "" -}}
+
+{{- $foldRaw := printf "%v" (.Get "foldable") -}}
+{{- $collapsedRaw := printf "%v" (.Get "collapsed") -}}
+{{- $showIconRaw := printf "%v" (.Get "showIcon") -}}
+{{- $hideIconRaw := printf "%v" (.Get "hideIcon") -}}
+{{- $showTitleRaw := printf "%v" (.Get "showTitle") -}}
+{{- $hideTitleRaw := printf "%v" (.Get "hideTitle") -}}
+
+{{- $foldable := or (eq $foldRaw "true") (eq $foldRaw "1") -}}
+{{- $collapsed := or (eq $collapsedRaw "true") (eq $collapsedRaw "1") -}}
+{{- $showIconExplicit := or (eq $showIconRaw "true") (eq $showIconRaw "1") -}}
+{{- $hideIcon := or (eq $hideIconRaw "true") (eq $hideIconRaw "1") -}}
+{{- $showTitleExplicit := or (eq $showTitleRaw "true") (eq $showTitleRaw "1") -}}
+{{- $hideTitle := or (eq $hideTitleRaw "true") (eq $hideTitleRaw "1") -}}
+
+{{- /* final flags */ -}}
+{{- $showIcon := cond $showIconExplicit true (not $hideIcon) -}}
+{{- $showTitle := cond $showTitleExplicit true (not $hideTitle) -}}
+
+{{- /* icons & default titles */ -}}
+{{- $icons := dict
+"note" "fa-regular fa-sticky-note"
+"abstract" "fa-regular fa-file-alt"
+"info" "fa-solid fa-circle-info"
+"tip" "fa-solid fa-lightbulb"
+"success" "fa-solid fa-circle-check"
+"question" "fa-regular fa-circle-question"
+"warning" "fa-solid fa-triangle-exclamation"
+"failure" "fa-solid fa-circle-xmark"
+"danger" "fa-solid fa-skull-crossbones"
+"bug" "fa-solid fa-bug"
+"example" "fa-solid fa-code"
+"quote" "fa-solid fa-quote-left"
+"opinion" "fa-solid fa-comment-dots"
+-}}
+{{- $titles := dict
+"note" "Note"
+"abstract" "Abstract"
+"info" "Info"
+"tip" "Tip"
+"success" "Success"
+"question" "Question"
+"warning" "Warning"
+"failure" "Failure"
+"danger" "Danger"
+"bug" "Bug"
+"example" "Example"
+"quote" "Quote"
+"opinion" "Opinion"
+-}}
+
+{{- $titleText := cond (ne $customTitle "") $customTitle (index $titles $type) -}}
+
+{{- if $foldable -}}
+<details class="callout callout-{{ $type }}" {{ if not $collapsed }}open{{ end }}>
+    <summary class="callout-header" role="button">
+        {{- if $showIcon }}<i class="{{ index $icons $type }}" aria-hidden="true"></i>{{- end }}
+        {{- if $showTitle }}<span class="callout-title">{{ $titleText }}</span>{{- end }}
+        <i class="toggle-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+    </summary>
+
+    <div class="callout-content">
+        {{ .Inner | markdownify }}
+    </div>
+</details>
+{{- else -}}
+<div class="callout callout-{{ $type }}">
+    <div class="callout-header">
+        {{- if $showIcon }}<i class="{{ index $icons $type }}" aria-hidden="true"></i>{{- end }}
+        {{- if $showTitle }}<span class="callout-title">{{ $titleText }}</span>{{- end }}
+    </div>
+
+    <div class="callout-content">
+        {{ .Inner | markdownify }}
+    </div>
+</div>
+{{- end -}}
