@@ -8,32 +8,29 @@
   --font-family-summary: "Bricolage Grotesque", serif;
   --font-weight-summary: 500;
 
-  --dim-color: #88888844;
+  --dim-color: hsla(0, 0%, 53%, 0.267);
 
-  --quote-text-color: #888;
-  --code-background-color: #333030;
-  --code-text-color: #f0efea;
+  --quote-text-color: hsl(0, 0%, 53%);
+  --code-background-color: hsl(0, 3%, 19%);
+  --code-text-color: hsl(50, 17%, 93%);
 }
 
 :root[color-scheme^='light'] {
-  --body-text-color: #222;
-  --body-background-color: #f0efea;
+  --body-text-color: hsl(0, 0%, 13%);
+  --body-background-color: hsl(50, 17%, 93%);
 
-  --primary-color: #cd5c5c;
-  --selection-color: #dda19b;
+  --primary-color: hsl(0, 53%, 58%);
+  --selection-color: hsl(5, 49%, 74%);
 
   --dim-opacity: 65%;
 }
 
 :root[color-scheme^='dark'] {
-  --body-text-color: #f0efea;
+  --body-text-color: hsl(50, 17%, 93%);
   --body-background-color: hsl(0, 0%, 7%);
 
   --primary-color: hsl(220, 53%, 58%);
   --selection-color: hsl(220, 50%, 40%);
-  /* --primary-color: #cd5c5c; */
-  /* --selection-color: #7d4141; */
-
   --dim-opacity: 50%;
 }
 
