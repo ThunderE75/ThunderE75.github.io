@@ -3,11 +3,11 @@ languageCode = 'en-US'
 title = 'My New Hugo Site'
 
 [rusty_typewriter]
- [params.rtwt]
+ [params.lightning]
   sidePane = true
   countPageItems = 7 
   searchPath = 'search'
- [params.rtwt.home]
+ [params.lightning.home]
   showBio = true
   showAuthorImg = true
   sidePaneTags = true
@@ -15,13 +15,13 @@ title = 'My New Hugo Site'
   showRecent = true
   hideRecentWhenFeatured = true
   countRecent = 5
- [params.rtwt.side.home]
+ [params.lightning.side.home]
   sidePaneSticky = false 
   taxonomies = ['tags']
   countTaxonomy = 6
- [params.rtwt.side.list]
+ [params.lightning.side.list]
   sidePaneSticky = false
- [params.rtwt.side.single]
+ [params.lightning.side.single]
   sidePaneSticky = true 
   showDetails = true
   showTableOfContents = true

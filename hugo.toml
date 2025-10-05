@@ -9,11 +9,11 @@ enableEmoji = true
   tag = 'tags'
   category = 'categories'
 
-[params.rtwt]
+[params.lightning]
   sidePane = true
   countPageItems = 7
 
-[params.rtwt.home]
+[params.lightning.home]
   showBio = false
   showAuthorImg = false
   showHomeBanner = false
@@ -23,12 +23,12 @@ enableEmoji = true
   hideRecentWhenFeatured = true
   countRecent = 5
 
-[params.rtwt.side.home]
+[params.lightning.side.home]
   sidePaneSticky = false
   taxonomies = ['tags']
   countTaxonomy = 5
 
-[params.rtwt.side.single]
+[params.lightning.side.single]
   sidePaneSticky = true
   showDetails = true
   showTableOfContents = true

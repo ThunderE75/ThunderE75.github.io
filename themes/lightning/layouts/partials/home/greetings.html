@@ -1,14 +1,14 @@
-{{- if site.Params.rtwt.home.showBio -}}
+{{- if site.Params.lightning.home.showBio -}}
   <div class="centered-container">
-    {{- if site.Params.rtwt.home.showAuthorImg -}}
-      <img style="border: var(--dim-color) 1px solid;border-radius:100%;" width="70px" src="{{- site.Data.rtwt.content.home.image | default "images/profile.jpg" -}}"/>
+    {{- if site.Params.lightning.home.showAuthorImg -}}
+      <img style="border: var(--dim-color) 1px solid;border-radius:100%;" width="70px" src="{{- site.Data.lightning.content.home.image | default "images/profile.jpg" -}}"/>
     {{- end -}}
-    {{/*  {{- if site.Params.rtwt.home.showHomeBanner -}}
-      <img src="{{- site.Data.rtwt.content.home.banner | default "images/profile.jpg" -}}"/>
+    {{/*  {{- if site.Params.lightning.home.showHomeBanner -}}
+      <img src="{{- site.Data.lightning.content.home.banner | default "images/profile.jpg" -}}"/>
     {{- end -}}  */}}
 
-    <h1 class="margin-sm">{{- site.Data.rtwt.content.home.greetings -}}</h1>
-    <div class="dim" style="width:70%;margin:0 15%;">{{- site.Data.rtwt.content.home.text -}}
+    <h1 class="margin-sm">{{- site.Data.lightning.content.home.greetings -}}</h1>
+    <div class="dim" style="width:70%;margin:0 15%;">{{- site.Data.lightning.content.home.text -}}
     </div>
   </div>
 {{- end -}}

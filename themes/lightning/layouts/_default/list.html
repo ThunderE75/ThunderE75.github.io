@@ -2,7 +2,7 @@
 <h1>{{- partial "title.html" . -}}</h1>
 {{- .Content -}}
 {{- $visible := where .Pages "Params.indexable" "ne" false -}}
-{{- $pages := (.Paginate ($visible.GroupByDate "2006") site.Params.rtwt.countPageItems) -}}
+{{- $pages := (.Paginate ($visible.GroupByDate "2006") site.Params.lightning.countPageItems) -}}
 {{- range $pages.PageGroups -}}
 <div class="list-group-key">{{- .Key -}}</div>
 {{- range .Pages -}}
@@ -19,7 +19,7 @@
 {{- end -}}
 
 {{- define "side" -}}
-<!-- <aside id="side-pane" class="{{- cond site.Params.rtwt.side.list.sidePaneSticky "side-sticky" "" -}}">
+<!-- <aside id="side-pane" class="{{- cond site.Params.lightning.side.list.sidePaneSticky "side-sticky" "" -}}">
     {{- partial "side/list.html" . -}}
   </aside> -->
 {{- end -}}

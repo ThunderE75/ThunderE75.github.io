@@ -16,7 +16,7 @@
 {{- end -}}
 
 {{- define "side" -}}
-  <aside id="side-pane" class="{{- cond site.Params.rtwt.side.single.sidePaneSticky "side-sticky" "" -}}">
+  <aside id="side-pane" class="{{- cond site.Params.lightning.side.single.sidePaneSticky "side-sticky" "" -}}">
     {{- partial "side/single.html" . -}} 
   </aside>
 {{- end -}}

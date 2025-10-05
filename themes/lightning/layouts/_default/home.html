@@ -10,19 +10,19 @@
     </div>
 
     {{- $featured := where $indexablePages "Params.featured" true -}}
-    {{- if (and $featured site.Params.rtwt.home.showFeatured) -}}
+    {{- if (and $featured site.Params.lightning.home.showFeatured) -}}
         {{- partial "home/micro_list.html" (dict "items" $featured "title" (i18n "featured_posts")) -}}
     {{- end -}}
     
-    {{- if and site.RegularPages site.Params.rtwt.home.showRecent -}}
-      {{- $recent := cond site.Params.rtwt.home.hideRecentWhenFeatured (where $indexablePages "Params.featured" "!=" true) site.RegularPages -}}
+    {{- if and site.RegularPages site.Params.lightning.home.showRecent -}}
+      {{- $recent := cond site.Params.lightning.home.hideRecentWhenFeatured (where $indexablePages "Params.featured" "!=" true) site.RegularPages -}}
         {{- partial "home/micro_list.html" (dict "items" $recent "title" (i18n "recent_posts")) -}}
     {{- end -}}
   </div>
 {{- end -}}
 
 {{- define "side" -}}
-  <aside id="side-pane" class="{{- cond site.Params.rtwt.side.home.sidePaneSticky "side-sticky" "" -}}">
+  <aside id="side-pane" class="{{- cond site.Params.lightning.side.home.sidePaneSticky "side-sticky" "" -}}">
     {{- partial "side/home.html" . -}}
   </aside>
 {{- end -}}

@@ -18,7 +18,7 @@
           {{- partial "footer.html" . -}}
         </footer>
       </div>
-      {{- if (and (default true .Params.rtwt.sidePane) site.Params.rtwt.sidePane) -}}
+      {{- if (and (default true .Params.lightning.sidePane) site.Params.lightning.sidePane) -}}
         {{- block "side" . -}}{{- end -}}
       {{- end -}}
     </div>
