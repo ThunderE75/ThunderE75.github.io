@@ -6,7 +6,7 @@ indexable = false
 author = "Navneet Prakash Dubey"
 alias = "Thunder"
 
-[params.rtwt]
+[params.lightning]
   sidePane = false
 
 [[params.social]]
