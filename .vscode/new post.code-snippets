@@ -1,0 +1,110 @@
+{
+	// Place your thundere75.github.io workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	"Add new post frontmatter": {
+		"scope": "markdown",
+		"prefix": "frontmatter",
+		"body": [
+			"+++",
+			"title = '$1'",
+			"draft = ${2|true,false|}",
+			"tags = ['$3']",
+			"indexable = true",
+			"date = '${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}+05:30'",
+			"+++",
+			"$0"
+		],
+		"description": "Add new post frontmatter"
+	},
+	"Callout (All Types)": {
+		"scope": "markdown",
+		"prefix": "callout",
+		"body": [
+			"{{< callout type=\"${1|info,note,abstract,tip,success,question,warning,failure,danger,bug,example,quote,opinion|}\" title=\"${2:Custom Title}\" hideTitle=${3|false,true|} showIcon=${4|true,false|} foldable=${5|false,true|} collapsed=${6|false,true|} >}}",
+			"$0",
+			"{{< /callout >}}"
+		],
+		"description": "Insert a callout block with selectable type and options"
+	},
+	"KBD (custom)": {
+		"scope": "markdown",
+		"prefix": "kbd custom",
+		"body": [
+			"{{< kbd \"$1\" >}}",
+			"$0"
+		],
+		"description": "Insert a custom keyboard key shortcode"
+	},
+	"KBD (Action Keys)": {
+		"scope": "markdown",
+		"prefix": "kbd action",
+		"body": [
+			"{{< kbd \"${1|Ctrl ⌃,Shift ⇧,Alt ⎇,Tab ↹,Backspace ←,Del ⌫,⊞ Win|}\" >}}",
+			"$0"
+		],
+		"description": "Insert a action key shortcode"
+	},
+	"LinkIcon - Blank": {
+		"scope": "markdown",
+		"prefix": "linkicon",
+		"body": [
+			"{{< linkicon \"${1:URL}\" \"${2:fa-solid fa-ICON}\" \"${3:Label}\" >}}"
+		],
+		"description": "Insert a blank linkicon shortcode"
+	},
+	"LinkIcon - Brands": {
+		"scope": "markdown",
+		"prefix": "linkicon-brand",
+		"body": [
+			"{{< linkicon \"${1:URL}\" \"${2|fa-brands fa-github,fa-brands fa-google,fa-brands fa-youtube,fa-brands fa-discord,fa-brands fa-twitter,fa-brands fa-linkedin,fa-brands fa-reddit,fa-brands fa-facebook,fa-brands fa-instagram|}\" \"${3:Label}\" >}}"
+		],
+		"description": "Insert a linkicon with branded icons"
+	},
+	"LinkIcon - Generic": {
+		"scope": "markdown",
+		"prefix": "linkicon-generic",
+		"body": [
+			"{{< linkicon \"${1:URL}\" \"${2|fa-solid fa-globe,fa-solid fa-user,fa-solid fa-blog,fa-solid fa-book,fa-solid fa-envelope,fa-solid fa-folder,fa-solid fa-code,fa-solid fa-play,fa-solid fa-file|}\" \"${3:Label}\" >}}"
+		],
+		"description": "Insert a linkicon with generic/solid icons"
+	},
+	"codeblock": {
+		"scope": "markdown",
+		"prefix": "codeblock",
+		"body": [
+			"{{< highlight ${1|java,javascript, markdown, c, cpp, go, bash, bat, html, css, json|} \"style=${2|vulcan,onedark,xcode-dark,doom-one |}\">}}",
+			"${3:paste code here}",
+			"{{< /highlight >}}",
+			"$0"
+		],
+		"description": "Insert a codeblock with copy icon"
+	},
+	"Image - with Caption": {
+		"scope": "markdown",
+		"prefix": "img",
+		"body": [
+			"{{< img src=\"${1:../../images/posts/example.png}\" caption=\"${2:Caption}\">}}"
+		],
+		"description": "Insert an image shortcode (blank template)"
+	},
+	"Image - with Credit": {
+		"scope": "markdown",
+		"prefix": "img-credit",
+		"body": [
+			"{{< img src=\"${1:../../images/posts/example.png}\" caption=\"${2:Caption}\" credit=\"${3:Origin}\" creditURL=\"${4:URL}\" >}}"
+		],
+		"description": "Insert an image shortcode with credit provider dropdown"
+	},
+	"Image - All options": {
+		"scope": "markdown",
+		"prefix": "img",
+		"body": [
+			"{{< img src=\"${1:../../images/posts/example.png}\" caption=\"${2:Caption}\" credit=\"${3:Credit}\" creditURL=\"${4:URL}\" >}}"
+		],
+		"description": "Insert an image shortcode (All options)"
+	}
+}
