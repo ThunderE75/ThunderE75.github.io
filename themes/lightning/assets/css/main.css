@@ -17,7 +17,8 @@ footer {
 } */
 
 a {
-  color: #00e;
+  /* color: #00e; */
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -28,11 +29,11 @@ kbd {
   font-size: 0.9em;
   line-height: 1.1;
   font-family: monospace;
-  border: 1px solid hsla(225, 100%, 65%, 0.5);
+  border: 1px solid var(--primary-color);
   border-radius: 6px;
-  color: #ccc;
-  background: #000000;
-  box-shadow: 0 2px 0px hsla(225, 100%, 65%, 0.5);
+  color: var(--code-text-color);
+  background: var(--code-background-color);
+  box-shadow: 0 1.5px 0px var(--primary-color);
 }
 
 code {
@@ -42,10 +43,10 @@ code {
   line-height: 1;
   font-family: monospace, monospace;
   border-radius: 1px;
+  color: var(--code-text-color);
+  background-color: var(--code-background-color);
   line-height: 1.2;           /* keeps it tight */
-  /* vertical-align: middle;      */
-  box-shadow: 0 4px 0px hsla(0, 2%, 19%, 1);
-    
+  /* vertical-align: middle;      */    
 }
 
 .copy-btn {

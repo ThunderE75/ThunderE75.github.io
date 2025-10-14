@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-US'
 title = 'My New Hugo Site'
 
-[rusty_typewriter]
+[lightning]
  [params.lightning]
   sidePane = true
   countPageItems = 7 
@@ -41,6 +41,8 @@ title = 'My New Hugo Site'
 [params]
  summaryLength = 1
 
+[params.author]
+name = 'Navneet Prakash Dubey'
 [params.links]
  hugo = 'https://gohugo.io/'
  theme = 'https://github.com/ThunderE75/rusty-typewriter/'

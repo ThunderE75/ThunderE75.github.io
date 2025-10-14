@@ -11,23 +11,28 @@
   --dim-color: hsla(0, 0%, 53%, 0.267);
 
   --quote-text-color: hsl(0, 0%, 53%);
-  --code-background-color: hsl(0, 3%, 19%);
-  --code-text-color: hsl(50, 17%, 93%);
+  /* --code-background-color: hsl(0, 3%, 19%); */
+  /* --code-text-color: hsl(50, 17%, 93%); */
 }
 
 :root[color-scheme^='light'] {
   --body-text-color: hsl(0, 0%, 13%);
   --body-background-color: hsl(50, 17%, 93%);
-
-  --primary-color: hsl(0, 53%, 58%);
-  --selection-color: hsl(5, 49%, 74%);
-
+  
+  --code-text-color: hsl(0, 0%, 13%);
+  --code-background-color: hsl(0, 0%, 90%);
+  
+  --primary-color: hsl(220, 50%, 40%);
+  --selection-color: hsl(220, 50%, 40%);
   --dim-opacity: 65%;
 }
 
 :root[color-scheme^='dark'] {
   --body-text-color: hsl(50, 17%, 93%);
   --body-background-color: hsl(0, 0%, 7%);
+  
+  --code-text-color: hsl(50, 17%, 93%);
+  --code-background-color: hsl(0, 3%, 19%);
 
   --primary-color: hsl(220, 53%, 58%);
   --selection-color: hsl(220, 50%, 40%);
