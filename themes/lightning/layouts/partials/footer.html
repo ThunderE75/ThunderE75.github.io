@@ -1,7 +1,10 @@
 <div class="footer">
-  {{/*  <a href="#">{{ i18n "scroll_top" }}</a>  */}}
   <div class="footer-copyright">
-    <div class="dim">© {{ now.Year }} {{ .Site.Params.author.name }}</div>
+    <div>
+      © {{ now.Year }}
+      <a href="/socials">Navneet Prakash Dubey</a> | Licensed under
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC-NC-SA 4.0</a>
+    </div>
     <div>
       {{- $ThemeAnchor := .Site.Params.links.theme | printf "<a href=\"%s\" target=\"_blank\">Lightning</a>" -}}
       {{- $HugoAnchor := .Site.Params.links.hugo | printf "<a href=\"%s\" target=\"_blank\">Hugo</a>" -}}
