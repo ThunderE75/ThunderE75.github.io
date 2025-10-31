@@ -25,7 +25,7 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 ---
 
 ## Projects
-### NYX *(Discord Bot)*
+### NYX *(Discord Bot)* 
 - Served as a project manager for a versatile open-sourced Discord bot, tailored to provide comprehensive Call of Duty Mobile weapon statistics.  
 - Contributed to the expansion of the bot from zero servers to over 1200 Discord servers.  
 - Actively engaged with a user base of over 178,000 unique users.  
@@ -37,33 +37,77 @@ An adaptable and resilient upcoming master's graduate. Demonstrates strong commu
 - Projects are based on implementation of AI/ML Concepts like Variational AutoEncoders (VAE), Convolutional Neural Networks (CNN), Generative Adversarial Networks (GAN), Natural Language Processing (NLP), Image Classifiers, etc.  
 - {{<linkicon "https://github.com/ThunderE75/Seasons-of-AI" "fa-brands fa-github" "Source Code">}}
 
----
-
 ## Certificates
-| Certificate | Issued By | Link | Date |
-| -------------------- | :------------------------------------------: | :----------: |---------- |
-| **CCNAV7: Introduction to Networking** | Cisco | {{<linkicon "https://drive.google.com/file/d/15g8Eq-27W388c-7wIzlsVg3uuyG3_mIZ/view?usp=share_link" "fa-solid fa-file-pdf" "PDF">}} | *March 2022* |
-| **Database Foundation** | Oracle Academy | {{<linkicon "https://drive.google.com/file/d/1iIHKU12RxVcSbMeJFLbD6KR75X5G8NH0/view?usp=share_link" "fa-solid fa-file-pdf" "PDF">}} | *April 2022* |
-| **IoT Fundamentals** | Cisco | {{<linkicon "https://drive.google.com/file/d/1Kd_YyqhZi4F59p-KO5UxS69Phx0yEaRH/view?usp=sharing" "fa-solid fa-file-pdf" "PDF">}} | *February 2023*   |
-| **Linux Essentials Certification (NDG)** | Cisco (NDG) | {{<linkicon "https://drive.google.com/file/d/1yNYXPtxlhj3rOC-3vS-f4M7a61fsV0_G/view?pli=1" "fa-solid fa-file-pdf" "PDF">}} | *July 2023*  |
-| **Seasons Of Artificial Intelligence** \* | Microsoft Learn | {{<linkicon "https://drive.google.com/file/d/1WyQHx0-U0jYy6MGH2rcMIC-QulOijRNY/view?usp=sharing" "fa-solid fa-file-pdf" "PDF">}} | *October 2024* |
+
+<table style="width:100%">
+    <tr>
+        <th>Certificate</th>
+        <th>Issued By</th>
+        <th>Link</th>
+        <th>Date</th>
+    </tr>
+    <tr>
+        <td>CCNAV7: Introduction to Networking</td>
+        <td>Cisco</td>
+        <td align="center">{{<linkicon "https://drive.google.com/file/d/15g8Eq-27W388c-7wIzlsVg3uuyG3_mIZ/view?usp=share_link" "fa-solid fa-file-pdf" "PDF">}}</td>
+        <td><i>March 2022</i></td>
+    </tr>
+    <tr>
+        <td>Database Foundation</td>
+        <td>Oracle Academy</td>
+        <td align="center">{{<linkicon "https://drive.google.com/file/d/1iIHKU12RxVcSbMeJFLbD6KR75X5G8NH0/view?usp=share_link" "fa-solid fa-file-pdf" "PDF">}}</td>
+        <td><i>April 2022</i></td>
+    </tr>
+    <tr>
+        <td>IoT Fundamentals</td>
+        <td>Cisco</td>
+        <td align="center">{{<linkicon "https://drive.google.com/file/d/1Kd_YyqhZi4F59p-KO5UxS69Phx0yEaRH/view?usp=sharing" "fa-solid fa-file-pdf" "PDF">}}</td>
+        <td><i>February 2023</i></td>
+    </tr>
+    <tr>
+        <td>Linux Essentials Certification (NDG)</td>
+        <td>Cisco (NDG)</td>
+        <td align="center">{{<linkicon "https://drive.google.com/file/d/1yNYXPtxlhj3rOC-3vS-f4M7a61fsV0_G/view?pli=1" "fa-solid fa-file-pdf" "PDF">}}</td>
+        <td><i>July 2023</i></td>
+    </tr>
+    <tr>
+        <td>Seasons Of Artificial Intelligence\*</td>
+        <td>Microsoft Learn</td>
+        <td align="center">{{<linkicon "https://drive.google.com/file/d/1WyQHx0-U0jYy6MGH2rcMIC-QulOijRNY/view?usp=sharing" "fa-solid fa-file-pdf" "PDF">}}</td>
+        <td><i>October 2024</i></td>
+    </tr>
+</table>
 
 > \* *Received the **AI Rocket Award** from Microsoft Learn for exceptional performance during the six-week **Seasons Of Artificial Intelligence** event*  
 
----
-
 ## Education
 
-* **Master of Computer Application** | Amity University, Noida | *2023 – Ongoing*
-  *(Specialized in Artificial Intelligence & Machine Learning (Dual Degree \- MCA))*
-    CGPA: 7.13
-* **Bachelor of Computer Application** | Amity University, Lucknow | *2020 \- 2023*
-    CGPA: 7.28  •  SGPA: 7.88
-
-* **Intermediate** \[ISC\] • Science | St. John’s School, Marhauli, Varanasi | *2018 \- 2020*  
-* **High School**  \[ISCE\] • St. John’s School, Marhauli, Varanasi | *2016 \- 2018*
-
----
+<table style="width:100%">
+ <tr>
+        <td align="center">{{< img src="../../images/amity_logo.png" alt="Amity Logo" width="50px" >}}</td>
+        <td>Master of Computer Application (MCA)<br>(Specialization in Artificial Intelligence)<br><i>Amity University, Noida, Uttar Pradesh, India</i></td>
+        <td align="center">CGPA: 7.95<br>SGPA: 9.00</td>
+        <td align="center">2023-2025</td>
+    </tr>
+    <tr>
+        <td align="center">{{< img src="../../images/amity_logo.png" alt="Amity Logo" width="50px" >}}</td>
+        <td>Bachelor of Computer Application (BCA)<br><i>Amity University, Lucknow, Uttar Pradesh, India</i></td>
+        <td align="center">CGPA: 7.28<br>SGPA: 7.88</td>
+        <td align="center">2020-2023</td>
+    </tr> 
+    <tr>
+        <td align="center">{{< img src="../../images/st-johns-school.png" alt="St. John's School Logo" width="50px" >}}</td>
+        <td>Intermediate (ISE)<br><i>St. John’s School, Marhauli, Varanasi</i></td>
+        <td align="center">-</td>
+        <td align="center">2018-2020</td>
+    </tr> 
+    <tr>
+        <td align="center">{{< img src="../../images/st-johns-school.png" alt="St. John's School Logo" width="50px" >}}</td>
+        <td>High School (ICSE)<br><i>St. John’s School, Marhauli, Varanasi</i></td>
+        <td align="center">-</td>
+        <td align="center">2016-2018</td>
+    </tr>
+</table>
 
 ## Volunteering Experiences
 
