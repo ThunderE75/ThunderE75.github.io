@@ -6,6 +6,8 @@ tags = ['windows', 'guide', 'FOSS']
 +++
  This guide demonstrates how i setup my MPV will all the Configs, Scripts & Keybindings. 
 
+ {{< jumpto src="#installing-windows" label="Skip to Installation" >}}
+
 ## Why MPV 
 Like most people, my first real media player was VLC. It was the go-to recommendation: free, open-source, played almost anything, and worked across platforms. But over time, I started noticing cracks. The biggest issue for me was the UI. It hadn’t really changed since the version I used as a kid, and with Windows 11’s modern design language, it felt increasingly out of place. That alone was manageable until I switched to a laptop with an OLED screen. Suddenly, I was hooked on pure black and dark-mode interfaces, and VLC became an eyesore. I tried to fix it. I searched for a decent dark VLC skin but couldn’t find one. I even installed the beta branch that had a redesigned UI with dark mode support. Unfortunately, it was sluggish and borderline unusable, so I rolled back to the stable release. Then the performance issues started to bother me: slow opening and closing times, occasional jittery playback on high-quality videos, lag when scrubbing through the timeline, and no thumbnail previews. That’s when I finally decided to look for a better player—and that search led me to MPV.
 

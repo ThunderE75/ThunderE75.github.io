@@ -1,0 +1,6 @@
+{{- $src := .Get "src" -}}
+{{- $label := .Get "label" | default "" -}}
+{{- $block := .Get "block" | default "" -}}
+<a class="jumpto-button{{ if eq (lower $block) " true" }} block{{ end }}" href="{{ $src }}" title="{{ $label }}">
+    {{ $label }} ➧
+</a>
