@@ -1,17 +1,25 @@
 /* main and native elements rules */
 
 html[color-scheme^='dark'] .dark-icon,
-html[color-scheme^='light'] .light-icon { 
-  display: none; 
+html[color-scheme^='light'] .light-icon {
+  display: none;
 }
 
 html {
   --bgc-transition: background-color 100ms ease-in;
 
   scroll-behavior: smooth;
-  ::-moz-selection, ::selection {
+
+  ::-moz-selection,
+  ::selection {
     background: var(--selection-color);
   }
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -22,7 +30,7 @@ body {
   font-family: var(--font-family-main);
   font-weight: var(--font-weight-main);
   line-height: 1.5;
-  margin: 1rem;
+  margin: 0;
   transition: var(--bgc-transition);
 }
 
@@ -30,10 +38,9 @@ body {
 div#container {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 2rem);
+  min-height: 100vh;
   max-width: fit-content;
   margin: 0 auto;
-  /* padding: 1rem; */
 }
 
 div#main-pane {
@@ -42,7 +49,7 @@ div#main-pane {
   flex-direction: column;
   width: 768px;
   margin: 0 auto;
-  padding: 1rem;
+  padding-right: 1em;
 }
 
 aside#side-pane {
@@ -144,7 +151,7 @@ a:hover {
   color: color-mix(in lab, var(--primary-color) 60%, #fff 40%);
 }
 
-a > svg {
+a>svg {
   color: var(--body-text-color);
   height: 22px;
   width: 22px;
@@ -152,22 +159,23 @@ a > svg {
 }
 
 blockquote {
-  padding-left: 25px; 
+  padding-left: 25px;
   margin: auto 5px;
-  border-left: 6px var(--dim-color) solid; 
+  border-left: 6px var(--dim-color) solid;
 }
 
-blockquote > p {
+blockquote>p {
   color: var(--quote-text-color);
 }
 
 table {
-  border: 1px var(--dim-color) solid; 
+  border: 1px var(--dim-color) solid;
   border-collapse: collapse;
 }
 
-th, td {
-  border: 1px var(--dim-color) solid; 
+th,
+td {
+  border: 1px var(--dim-color) solid;
   padding: .2rem .5rem;
 }
 
@@ -180,7 +188,7 @@ pre:has(code) {
   background-color: var(--code-background-color) !important;
 }
 
-:not(pre) > code {
+:not(pre)>code {
   padding: .3rem .3rem 0;
   border-radius: .3rem;
   color: var(--code-text-color);
