@@ -29,9 +29,22 @@ sudo apt upgrade
 sudo apt install nala
 ```
 
+```sh
+sudo apt install git curl exa zoxide ranger bat neovim fzf btop 
+```
+
+{{< callout type="info" title="Additional Steps Necessary" foldable=true collapsed=false >}}
+
+You need to perform additional commands to install the following packages
+
+- whyy {{% linkicon "https://github.com/jesseduffield/lazygit" "fa-brands fa-github" "lazygit" %}} no work
+
+{{< /callout >}}
+
 - Add my `alias.sh` file to `.bashrc`, this adds some Quality of Life Aliases
 
 {{< highlight bat "style=xcode-dark">}}
+cat << 'EOF' > ~/.alias
 # ===== QoL Aliases =====
 alias cls="clear"
 alias vim="nvim"
@@ -41,15 +54,15 @@ alias r="ranger"
 alias z="zoxide"
 alias refresh="source ~/.bashrc"
 
-# ===== EZA Aliases =====
-alias l="eza --icons --sort Name"
-alias ls="eza --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --binary --group"
-alias ll="eza --icons --sort Name --long --header"
-alias la="eza --icons --sort Name --long --all --header"
-alias lr="eza --icons --sort Name --long --recurse --header"
-alias lra="eza --icons --sort Name --long --recurse --all"
-alias lt="eza --icons --sort Name --long --tree --header"
-alias lta="eza --icons --sort Name --long --tree --all"
+# ===== EXA Aliases =====
+alias l="exa --icons --sort Name"
+alias ls="exa --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --binary --group"
+alias ll="exa --icons --sort Name --long --header"
+alias la="exa --icons --sort Name --long --all --header"
+alias lr="exa --icons --sort Name --long --recurse --header"
+alias lra="exa --icons --sort Name --long --recurse --all"
+alias lt="exa --icons --sort Name --long --tree --header"
+alias lta="exa --icons --sort Name --long --tree --all"
 EOF
 
 grep -qxF 'source ~/.alias' ~/.bashrc || echo 'source ~/.alias' >> ~/.bashrc
@@ -60,4 +73,4 @@ source ~/.bashrc
 
 - After a while, i usually switch to {{<linkicon "https://zsh.sourceforge.io/" "fa-solid fa-globe" "zsh">}} as my shell but i have not made my guide for it
 - I use {{<linkicon "https://github.com/ohmyzsh/ohmyzsh" "fa-brands fa-github" "ohmyzsh">}} / {{<linkicon "https://github.com/ohmybash/oh-my-bash" "fa-brands fa-github" "oh-my-bash">}} to customize my prompt
-- For ubuntu, i remove snap support & use {{<linkicon "https://flatpak.org/setup/Ubuntu" "fa-solid fa-box" "Flatpak">}}
+- For ubuntu, i remove snap support & use {{< linkicon "https://flatpak.org/setup/Ubuntu" "fa-solid fa-box" "Flatpak">}}
