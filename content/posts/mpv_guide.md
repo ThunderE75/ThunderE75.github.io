@@ -17,10 +17,10 @@ This was setup on `Windows`, so some changes might be necessary (Like File paths
 
 ### Amazing mpv forks
 MPV itself is great, but the ecosystem around it makes it even more exciting:
-- {{< linkicon "https://github.com/iina/iina" "fa-brands fa-github" "IINA" >}}(macOS) – A beautifully designed MPV frontend that feels like a native Mac app.
-- {{< linkicon "https://github.com/celluloid-player/celluloid" "fa-brands fa-github" "Celluloid" >}}(Linux) – A clean GTK frontend with all the power of MPV under the hood.
-- {{< linkicon "https://github.com/422658476/MPV-EASY-Player" "fa-brands fa-github" "Mpv Easy Player" >}} (Windows) – A mpv fork with clean UI.
-- {{< linkicon "https://github.com/mpc-qt/mpc-qt" "fa-brands fa-github" "mpc-qt/MPC-QT" >}}(Windows) – Media Player Classic reimplemented with Qt and libmpv.
+- {{< linkicon "https://github.com/iina/iina" "fa-brands fa-github" "IINA" >}}(macOS) - A beautifully designed MPV frontend that feels like a native Mac app.
+- {{< linkicon "https://github.com/celluloid-player/celluloid" "fa-brands fa-github" "Celluloid" >}}(Linux) - A clean GTK frontend with all the power of MPV under the hood.
+- {{< linkicon "https://github.com/422658476/MPV-EASY-Player" "fa-brands fa-github" "Mpv Easy Player" >}} (Windows) - A mpv fork with clean UI.
+- {{< linkicon "https://github.com/mpc-qt/mpc-qt" "fa-brands fa-github" "mpc-qt/MPC-QT" >}}(Windows) - Media Player Classic reimplemented with Qt and libmpv.
 
 ## Showcase
 
