@@ -95,48 +95,47 @@ details.callout summary:focus-visible {
   border-radius: 4px;
 }
 
-/* JumpTo button – accessible, works inline or as block when needed */
-.jumpto-button,
-.jumpto-shortcode a {
-  /* backward compat for old markup */
-  display: inline-flex;
-  align-items: center;
-  gap: .4rem;
-  cursor: pointer;
-  font-weight: 600;
+
+
+.jumpto-button {
+  display: inline-block;                /* keep inline anchors sized correctly */
   text-decoration: none;
+  cursor: pointer;
+  position: relative;
   padding: 2px 16px;
-  border-radius: 16px;
-  border: 1px solid var(--primary-color);
   color: var(--primary-color);
-  background: none;
-  /* animated fill using inset box-shadow */
-  box-shadow: inset 0 0 0 0 var(--primary-color);
-  transition: box-shadow 220ms ease, color 220ms ease, border-color 220ms ease, transform 80ms ease;
+  border: 1px solid var(--primary-color);
+  border-radius: 16px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;                     /* clip pseudo-element inside border */
+  isolation: isolate;                   /* make z-index layering self-contained */
 }
 
-.jumpto-button:hover,
-.jumpto-shortcode a:hover {
+.jumpto-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-color: var(--primary-color);
+  transform: scale(0);                  /* use transform, not scale shorthand */
+  transform-origin: center;
+  z-index: -1;                          /* stay behind text but inside clipping */
+  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.jumpto-button:hover::before {
+  transform: scale(1.5);
+}
+
+
+.jumpto-button:hover {
   color: var(--body-background-color);
-  box-shadow: inset 0 0 0 100vmax var(--primary-color);
+  border-color: transparent;
+  /* transform: scale(1.05); */
 }
 
-.jumpto-button:active,
-.jumpto-shortcode a:active {
-  transform: translateY(1px);
-}
-
-.jumpto-button:focus-visible,
-.jumpto-shortcode a:focus-visible {
-  outline: none;
-  box-shadow:
-    0 0 0 3px color-mix(in lab, var(--primary-color) 30%, transparent 70%),
-    inset 0 0 0 0 var(--primary-color);
-}
-
-/* Optional full-width variant via shortcode param block=true */
-.jumpto-button.block {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+.jumpto-button:active {
+  transform: scale(0.98);
 }
